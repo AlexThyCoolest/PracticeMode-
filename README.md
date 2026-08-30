@@ -1,6 +1,6 @@
 # Practice Mode+
 
-Practice mode but 100x better
+A collection of additional practice mode tweaks/settings that makes it 100x better
 
 Use `qpm s build` to build
 Same goes for `qpm s copy` and `qpm s qmod`

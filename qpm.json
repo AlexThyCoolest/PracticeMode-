@@ -57,11 +57,6 @@
       }
     },
     {
-      "id": "paper",
-      "versionRange": "^3.0.0",
-      "additionalData": {}
-    },
-    {
       "id": "bs-cordl",
       "versionRange": "^4403.0.0",
       "additionalData": {}
@@ -69,6 +64,16 @@
     {
       "id": "beatsaber-hook",
       "versionRange": "^8.0.0",
+      "additionalData": {}
+    },
+    {
+      "id": "paper2_scotland2",
+      "versionRange": "^4.4.0",
+      "additionalData": {}
+    },
+    {
+      "id": "flamingo",
+      "versionRange": "^1.2.1",
       "additionalData": {}
     }
   ]

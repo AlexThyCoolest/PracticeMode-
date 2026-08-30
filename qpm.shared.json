@@ -58,11 +58,6 @@
         }
       },
       {
-        "id": "paper",
-        "versionRange": "^3.0.0",
-        "additionalData": {}
-      },
-      {
         "id": "bs-cordl",
         "versionRange": "^4403.0.0",
         "additionalData": {}
@@ -70,6 +65,16 @@
       {
         "id": "beatsaber-hook",
         "versionRange": "^8.0.0",
+        "additionalData": {}
+      },
+      {
+        "id": "paper2_scotland2",
+        "versionRange": "^4.4.0",
+        "additionalData": {}
+      },
+      {
+        "id": "flamingo",
+        "versionRange": "^1.2.1",
         "additionalData": {}
       }
     ]
@@ -158,26 +163,6 @@
     },
     {
       "dependency": {
-        "id": "paper",
-        "versionRange": "=3.7.0",
-        "additionalData": {
-          "soLink": "https://github.com/Fernthedev/paperlog/releases/download/v3.7.0/libpaperlog.so",
-          "debugSoLink": "https://github.com/Fernthedev/paperlog/releases/download/v3.7.0/debug_libpaperlog.so",
-          "overrideSoName": "libpaperlog.so",
-          "modLink": "https://github.com/Fernthedev/paperlog/releases/download/v3.7.0/paperlog.qmod",
-          "branchName": "version/v3_7_0",
-          "compileOptions": {
-            "systemIncludes": [
-              "shared/utfcpp/source"
-            ]
-          },
-          "cmake": false
-        }
-      },
-      "version": "3.7.0"
-    },
-    {
-      "dependency": {
         "id": "libil2cpp",
         "versionRange": "=0.5.0",
         "additionalData": {
@@ -194,19 +179,6 @@
     },
     {
       "dependency": {
-        "id": "scotland2",
-        "versionRange": "=0.1.7",
-        "additionalData": {
-          "soLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.7/libsl2.so",
-          "debugSoLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.7/debug_libsl2.so",
-          "overrideSoName": "libsl2.so",
-          "branchName": "version/v0_1_7"
-        }
-      },
-      "version": "0.1.7"
-    },
-    {
-      "dependency": {
         "id": "flamingo",
         "versionRange": "=1.2.1",
         "additionalData": {
@@ -218,6 +190,19 @@
         }
       },
       "version": "1.2.1"
+    },
+    {
+      "dependency": {
+        "id": "scotland2",
+        "versionRange": "=0.1.7",
+        "additionalData": {
+          "soLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.7/libsl2.so",
+          "debugSoLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.7/debug_libsl2.so",
+          "overrideSoName": "libsl2.so",
+          "branchName": "version/v0_1_7"
+        }
+      },
+      "version": "0.1.7"
     }
   ]
 }
